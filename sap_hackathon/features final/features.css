@@ -1,0 +1,149 @@
+*
+{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-size: 20px;   
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)) ,url(1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+nav{
+    position: relative;
+    top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc9c9;
+    text-transform: uppercase;
+    width: 21rem;
+    margin: 0 2.5rem;
+    padding: 1rem 0;
+}
+
+.features-section{
+    background-color: #888;
+}
+
+.feature-heading
+{
+    text-align: center;
+    padding: 3% 0 0;
+}
+
+.feature-heading p
+{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 30px;
+}
+
+.feature-heading::after
+{
+    display: block;
+    height: 2px;
+    background-color: #000000;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.feature-name
+{
+    text-transform: uppercase;
+}
+.content{
+    margin-bottom: 40px;
+}
+.feature-icon{
+    font-size: 400%;
+    margin-top: 20px;
+    color: #00A5C4;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.feature-icon:hover{
+    transform: scale(1.2);
+}
+footer
+{
+    font-size: 20px;
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav
+{
+    list-style: none;
+    float: left;
+}
+
+.social-links
+{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child
+{
+    margin-right: 0;
+}
+
+.footer-nav li a,
+.social-links li a
+{
+    text-decoration: none;
+    color: #888;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+.social-links li a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.footer-nav li a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.social-links li a:link,
+.social-links li a:visited
+{
+    font-size: 160%;
+}
+
+footer p
+{
+    
+    color: #888;
+    text-align: center;
+    margin-top: 40px;
+    cursor: auto;
+    text-decoration: none;
+}
